@@ -3,16 +3,15 @@ using UnityEngine;
 
 public class Snake : MonoBehaviour
 {
-    private float difficulty = 0.08f;
     private Vector2 direction = Vector2.zero;
 
     [SerializeField] private Transform bodyPrefab;
+    [SerializeField] private Transform tailPrefab;
 
     private List<Transform> segments = new List<Transform>();
 
     private void Start()
     {
-        Time.fixedDeltaTime = difficulty;
         ResetGame();
     }
 
@@ -39,13 +38,15 @@ public class Snake : MonoBehaviour
         }
         segments.Clear();
         segments.Add(transform);
+        Transform snakeTail = Instantiate(tailPrefab);
+        segments.Add(snakeTail);
     }
 
     private void GrowBody()
     {
         Transform segment = Instantiate(bodyPrefab);
-        segment.position = segments[segments.Count - 1].position;
-        segments.Add(segment);
+        segment.position = segments[segments.Count - 2].position;
+        segments.Insert(segments.Count - 1, segment);
     }
 
 

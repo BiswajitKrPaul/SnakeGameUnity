@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 718666683343865686}
   - component: {fileID: 6588954798357575327}
   m_Layer: 0
-  m_Name: SnakeBodyPrefabs
+  m_Name: SnakeTailPrefab
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 57959799, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  m_Sprite: {fileID: 1393977557, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

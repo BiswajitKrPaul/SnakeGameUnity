@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: groundspriteatlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1012296001, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1320549756, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: -1935501478, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1393977557, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1083646685, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1333896208, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1716056532, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1322493209, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: -677005556, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 913783517, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: -1093215935, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 2054376156, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 57959799, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: -759113487, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: 1881853796, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  - {fileID: -1482615579, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - snake_8
+  - snake_9
+  - snake_4
+  - snake_5
+  - snake_6
+  - snake_7
+  - snake_0
+  - snake_1
+  - snake_2
+  - snake_3
+  - snake_15
+  - snake_14
+  - snake_13
+  - snake_12
+  - snake_11
+  - snake_10
+  m_RenderDataMap: {}
+  m_Tag: groundspriteatlas
+  m_IsVariant: 0
