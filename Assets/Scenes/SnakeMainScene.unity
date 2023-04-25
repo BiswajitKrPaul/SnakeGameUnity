@@ -347,7 +347,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyPrefab: {fileID: 1181728091370075045, guid: b28532b52e3bde74f961ac1765c9d70c, type: 3}
-  tailPrefab: {fileID: 1181728091370075045, guid: bd0e8bdd9b3ea704e80da03d9d2d4c8c, type: 3}
+  headUp: {fileID: 1716056532, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  headDown: {fileID: -677005556, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  headLeft: {fileID: 913783517, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  headRight: {fileID: 1322493209, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  horizontalBody: {fileID: 57959799, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  verticalBody: {fileID: -759113487, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  segments: []
 --- !u!212 &523869685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -458,6 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameArea: {fileID: 996476918}
+  snake: {fileID: 523869684}
 --- !u!212 &568667740
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -709,7 +716,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
