@@ -5,7 +5,6 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField] private BoxCollider2D gameArea;
-    // Start is called before the first frame update
 
     [SerializeField] private Snake snake;
 
