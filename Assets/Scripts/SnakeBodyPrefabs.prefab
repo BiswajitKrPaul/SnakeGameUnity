@@ -78,7 +78,12 @@ MonoBehaviour:
   tailLeft: {fileID: 1333896208, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
   tailUp: {fileID: -1935501478, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
   tailDown: {fileID: 1083646685, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
-  direction: 0
+  rightToDown: {fileID: -1482615579, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  downToLeft: {fileID: 1881853796, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  leftToUp: {fileID: 1012296001, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  upToRight: {fileID: 1320549756, guid: bb223e073f4af4f42873774a3315a78b, type: 3}
+  direction: 2
+  previousDirection: 2
   isTail: 0
 --- !u!212 &4186170008634209681
 SpriteRenderer:
